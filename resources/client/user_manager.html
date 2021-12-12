@@ -1,0 +1,48 @@
+<head>
+<script src="elite.js"></script>
+</head>
+<div class="container">
+  <div class="sidenav">
+    <ul>
+      <li><a href="homepage.php">Home</a></li>
+      <li><a href="">Settings</a></li>
+      <li><a href="">Shop Management</a></li>
+      <li class="active"><a href="user_manager.php">User Management</a></li>
+      <li><a href="">Client Management</a></li>
+      <li><a href="">Application Statistics</a></li>
+      <li><a href="">System Log</a></li>
+      
+  </div>
+  <div class="left-content">
+    <div class="topnav">
+    <div style="float: left;">
+      <img src="../../resources/images/show1.png" style="
+      padding: 20px;
+      border: 1px solid midnightblue;
+      border-radius: 100px;
+      height: 150px;
+      width: 150px;
+      ">
+    </div>
+    <div>
+      <li><p style="color: aliceblue;">Welcome <?php echo $_SESSION['authenticated'];?></p></li>
+      <li><input class="tp-nav-button" type="button" value="Create New User" onclick="return createUser()"></li>
+      <li><input class="tp-nav-button" type="button" value="Edit Users" onclick="return editUser()"></li>
+      <li><input class="tp-nav-button" type="button" value="Delete Users" onclick="return deleteUser()"></li>
+    </div>
+    </div>
+    <div class="browser-window">
+      <div id="tab-contents">
+      Code here
+      </div>
+      
+    </div>
+  </div>
+</div>
+       
+<div class="footer">
+  <p>group 18 SYAD Group Assignment</p>
+</div>
+
+</body>
+</html>

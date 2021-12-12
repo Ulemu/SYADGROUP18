@@ -1,0 +1,78 @@
+  <?php 
+  function getFname(){
+    print 'Brian';
+  }
+  function getSname(){
+    print 'Malani';
+  }
+  function getDOB(){
+    print '17/01/99';
+  }
+  function getGender(){
+    print 'Male';
+  }
+  function getContact(){
+    print '265 883659649';
+  }
+  function getEmail(){
+    print 'bmalani@poly.ac.mw';
+  }
+  function getPadd(){
+    print 'Blantyre Chirimba Industrial site';
+  }
+  function getB_name(){
+    print 'Elite Trade Malawi';
+  }
+?>
+
+<div class="container">
+  <div class="sidenav">
+    <ul>
+      <li class="active"><a href="homepage.php">Home</a></li>
+      <li><a href="">Settings</a></li>
+      <li><a href="">Shop Management</a></li>
+      <li><a href="user_manager.php">User Management</a></li>
+      <li><a href="">Client Management</a></li>
+      <li><a href="">Application Statistics</a></li>
+      <li><a href="">System Log</a></li>
+      
+  </div>
+  <div class="left-content">
+  
+    <div class="topnav">
+    <div style="float: left;">
+      <img src="../../resources/images/show1.png" style="
+      padding: 20px;
+      border: 1px solid midnightblue;
+      border-radius: 100px;
+      height: 150px;
+      width: 150px;
+      ">
+    </div>
+      <li><p style="color: aliceblue;">Welcome <?php echo $_SESSION['authenticated'];?></p></li>
+      <li class="active-tab"><a href="profile_tab.php">Profile</a></li>
+      <li><a href="">Elite Market</a></li>
+      <li><a href="">Messages</a></li>
+    </div>
+    <div class="browser-window">
+      <pre>
+      <p class="textLabel">First Name:       <span><?php getFname();?></span>
+      <p class="textLabel">Last Name:        <span><?php getSname();?></span>
+      <p class="textLabel">Birthday:         <span><?php getDOB();?></span>
+      <p class="textLabel">Gender:           <span><?php getGender();?></span>
+      <p class="textLabel">Contact:          <span><?php getContact();?></span>
+      <p class="textLabel">e-mail:           <span><?php getEmail();?></span>
+      <p class="textLabel">Physical Address: <span><?php getPadd();?></span>
+      <p class="textLabel">Business Name:    <span><?php getB_name();?></span>
+    </pre>
+      
+    </div>
+  </div>
+</div>
+       
+<div class="footer">
+  <p>group 18 SYAD Group Assignment</p>
+</div>
+
+</body>
+</html>

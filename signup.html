@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up form</title>
+	<style>
+	*
+	{
+		box-sizing: border-box;
+		padding: 0px;
+		margin: 0px; 
+	}
+	body
+	{
+		background-color: beige;
+		color: black;
+	}
+	.header
+	{
+		text-align: center;
+		background-color: midnightblue;
+		color: aliceblue;
+		font: bold 30px tahomma;
+	}
+	.detail
+	{
+		margin-left:75px;
+		padding: 20px;
+		font:bold 20px Times New Roman;
+
+	}
+	.form
+	{
+		margin-left:90px;
+		margin-top:25px;
+
+	}
+	.form-input
+	{
+		margin:10px;
+		padding: 5px;
+		width: 300px;
+	}
+	.form_navigation
+	{
+		display: block;
+		float: right;
+		margin: 0px 800px 10px 0px;
+	}
+	.form_navigation #next
+	{
+		width: 100px;
+		font-size: 24px;
+	}
+	.footer
+	{
+		background-color: midnightblue;
+		color: aliceblue;
+		font: bold 20px tahomma;
+		clear: both;	
+	}
+	label{
+		color: black;
+	}	
+
+	</style>
+</head>
+<body>
+<div class="header">
+	<h1>Elite Trade</h1>
+
+</div>
+<div class="detail">
+	<h2>Personal Details</h2>
+</div>
+
+<div class="form">
+	<form action="" method="" class="">
+		<label>FirstName</label><br>
+		<input type="text" id="fname" class="form-input" placeholder="Enter Firstname" name="fname"><br>
+		<label>LastName</label><br>
+		<input type="text" id="lname" class="form-input" placeholder="Enter Lastname" name="lname"><br>
+		<label>Contact</label><br>
+		<input type="contact" id="phone" class="form-input" placeholder="Enter Phonenumber" name="phone"><br>
+		<label>Email</label><br>
+		<input type="email" id="email" class="form-input" placeholder="Enter E-mail Address" name="email"><br>
+		<label>Add ID Picture</label><br>
+		<input type="file" id="idpicture" class="form-input" name="idpicture"><br>
+		<label>Add ID Number</label><br>
+		<input type="number" id="nid" class="form-input" placeholder="Enter National ID Number" name="nid"><br>
+		<label>Physical Address</label><br>
+		<input type="address" id="p_address" class="form-input" placeholder="Enter Physical Address" name="p_address"><br>
+		<label>Date of Birth</label><br>
+		<input type="date" id="dob" class="form-input" name="dob"><br>
+	</form>
+</div>
+<div class="form_navigation">
+	<input type="button" name="next" id="next" value="Next">
+</div>
+
+<div class="footer">
+	<p>Group 18 SYAD PROJECT</p>
+</div>
+	
+	
+
+
+</form>
+</body>
+</html>

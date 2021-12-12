@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+
+/*Style the header content*/
+
+h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    width: 100%;
+    padding: 20px 0px 0px 40px;
+    background-color: midnightblue;
+}
+
+
+/* Style the content */
+
+.container {
+    color: black;
+    background-color: beige;
+    padding: 10px;
+    margin: 10px;
+}
+
+.sidenav {
+    background-color: beige;
+    width: 25%;
+    float: left;
+}
+
+.left-content {
+    float: right;
+    width: 70%;
+    padding: 10px;
+}
+
+
+/* Style the topnav links */
+
+.topnav {
+    overflow: hidden;
+    background-color: midnightblue;
+}
+
+.active-tab {
+    background-color: silver;
+    color: #000000;
+}
+
+
+/* Style the footer */
+
+.footer {
+    background-color: midnightblue;
+    color: aliceblue;
+    padding: 10px;
+    clear: both;
+}
+
+
+/* Styling the browser window */
+
+.browser-window {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+/* Style the left navigation bar */
+
+
+/* Style the sidenav links */
+
+.sidenav ul {
+    list-style-type: none;
+}
+
+.sidenav a {
+    display: block;
+    color: #000000;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change color on hover */
+
+.sidenav a:hover {
+    background-color: silver;
+    color: black;
+}
+
+.active {
+    width: 100%;
+    background-color: midnightblue;
+}
+
+.topnav li {
+    list-style-type: none;
+}
+
+
+/* Style the topnav links */
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav .tp-nav-button {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change color on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
